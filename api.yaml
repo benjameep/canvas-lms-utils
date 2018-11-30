@@ -1,0 +1,24 @@
+/api/v1/course/:course
+
+
+postbody: wiki_page
+title: name
+html: description
+id: id
+url: html_url
+
+assignments
+assignment
+
+self: /api/v1/users/self
+profile: /api/v1/users/self/profile
+account: /api/v1/accounts/self
+permissions: /api/v1/accounts/self/permissions
+scopes: /api/v1/accounts/self/scopes
+
+id: id|page_id
+name: name|title|display_name|question_name
+body: description|message|body|question_text
+url: html_url|folders_url
+type: question_type|quiz_type
+preview: preview_url
